@@ -6,10 +6,7 @@ namespace ClassesEObjetos
     {
         static void Main(string[] args)
         {
-            Pessoa pessoa1 = new Pessoa();
-            pessoa1.nome = "Paulo";
-            pessoa1.idade = 45;
-            pessoa1.genero = "Masculino";
+            Pessoa pessoa1 = new Pessoa("Paulo", 45, "Masculino");
 
             pessoa1.Identificar();
 
